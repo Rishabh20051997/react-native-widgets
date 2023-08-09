@@ -82,7 +82,8 @@ const chartArrayData = [{
 ## Example 2 - Animating Progress Bar
 
 
-https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/c05051de-2b00-4bee-a1f9-5723b78c592b
+https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/e9c6e58b-561c-43fb-a86d-dd2a3f004989
+
 
 
 ```bash
@@ -108,8 +109,7 @@ useEffect(() => {
 ## Example 1 - Basic Seek Bar
 
 
-https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/a862c0ee-f11d-420c-9643-5643116dd503
-
+https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/f453ef4a-c55f-4f25-a318-41d459ceeca9
 
 
 ```bash
@@ -159,6 +159,10 @@ const styles = StyleSheet.create({
 ## Example 1 - List Shimmer
 
 
+
+https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/ae9718ee-7d68-4931-88c2-c90fc6d08da0
+
+
 ```bash
  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
     <Text>List Shimmer</Text>
@@ -170,6 +174,10 @@ const styles = StyleSheet.create({
 ```
 
 ## Example 2 - Card Shimmer
+
+
+https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/e0ddb9b0-cc90-473a-9534-74fac292fbf4
+
 
 
 ```bash
