@@ -25,9 +25,9 @@ function App(): JSX.Element {
   return (
     <ScrollView contentContainerStyle={styles.root}>
       <GestureHandlerRootView>
-        {/* <PieChartExamples/> */}
+        <PieChartExamples/>
         {/* <ProgressBarExamples/> */}
-        <SeekBarExamples />
+        {/* <SeekBarExamples /> */}
       </GestureHandlerRootView>
     </ScrollView>
   );
