@@ -142,3 +142,44 @@ const styles = StyleSheet.create({
     }
 })
 ```
+
+
+# Shimmer
+
+## Example 1 - List Shimmer
+
+
+```bash
+ <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <Text>List Shimmer</Text>
+    <ShimmerComponent containerStyle={{ marginVertical: 5 }} />
+    <ShimmerComponent containerStyle={{ marginVertical: 5 }} />
+    <ShimmerComponent containerStyle={{ marginVertical: 5 }} />
+    <ShimmerComponent containerStyle={{ marginVertical: 5 }} />
+ </View>
+```
+
+## Example 2 - Card Shimmer
+
+
+```bash
+<View style={{ flex: 1}}>
+    <Text>Card Shimmer</Text>
+    <View style={{ flex: 1, flexDirection: 'row', alignContent: 'space-between', padding: 10}}>
+        <ShimmerComponent
+            componentHeight={80}
+            componentWidth={80}
+            containerStyle={{ borderRadius: 40 }}
+        />
+        <View>
+            <ShimmerComponent componentHeight={10} componentWidth={220} containerStyle={{ marginVertical: 5marginLeft: 10 }} />
+            <ShimmerComponent componentHeight={10} componentWidth={220} containerStyle={{ marginVertical: 5marginLeft: 10 }} />
+            <ShimmerComponent componentHeight={10} componentWidth={180} containerStyle={{ marginVertical: 5marginLeft: 10 }} />
+            <ShimmerComponent componentHeight={10} componentWidth={160} containerStyle={{ marginVertical: 5marginLeft: 10 }} />
+        </View>
+    </View>
+</View>
+```
+
+
+

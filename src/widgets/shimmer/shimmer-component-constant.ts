@@ -1,0 +1,15 @@
+import { Dimensions } from "react-native"
+
+const windowWidth = Dimensions.get('window').width - 50
+
+const DEFAULT_SHIMMER_COLOR = '#666666'
+const DEFAULT_SHIMMER_BACKGROUND_COLOR = '#CCCCCC'
+const DEFAULT_SHIMMER_WIDTH = windowWidth
+const DEFAULT_SHIMMER_HEIGHT = 50
+
+export {
+DEFAULT_SHIMMER_COLOR,
+DEFAULT_SHIMMER_BACKGROUND_COLOR,
+DEFAULT_SHIMMER_WIDTH,
+DEFAULT_SHIMMER_HEIGHT
+}

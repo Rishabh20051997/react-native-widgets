@@ -14,6 +14,7 @@ import PieChartExamples from './examples/pie-chart-example';
 import ProgressBarExamples from './examples/progress-bar-example';
 import SeekBarExamples from './examples/seek-bar-example';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import ShimmerExample from './examples/shimmer-example';
 
 
 
@@ -25,6 +26,7 @@ function App(): JSX.Element {
         <PieChartExamples/>
         <ProgressBarExamples/>
         <SeekBarExamples />
+        <ShimmerExample/>
       </GestureHandlerRootView>
     </ScrollView>
   );
