@@ -7,6 +7,7 @@ This is a react native project for widget reference
 
 >**Note**: Has dependency of library:  **react-native-svg**
 ## Example 1 - Basic Pie Chart
+<img width="284" alt="Screenshot 2023-08-09 at 5 23 10 PM" src="https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/1cef2acf-c463-40ef-80b8-787076b1a21b">
 
 
 ```bash
@@ -31,6 +32,7 @@ const chartArrayData = [{
 ```
 
 ## Example 2 - Doughnut Pie Chart
+<img width="284" alt="Screenshot 2023-08-09 at 5 23 20 PM" src="https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/ff12abda-78aa-4490-9fac-dc6c99eed426">
 
 
 ```bash
@@ -64,6 +66,7 @@ const chartArrayData = [{
 # Progress Bar Chart
 
 ## Example 1 - Basic Progress Bar
+<img width="500" alt="Screenshot 2023-08-09 at 5 27 35 PM" src="https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/6c0a6ae4-bb19-47a5-a398-e69d97264d43">
 
 
 ```bash
@@ -77,6 +80,9 @@ const chartArrayData = [{
 ```
 
 ## Example 2 - Animating Progress Bar
+
+
+https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/c05051de-2b00-4bee-a1f9-5723b78c592b
 
 
 ```bash
@@ -100,6 +106,10 @@ useEffect(() => {
 
 >**Note**: Has dependency which is required by almost all project **react-native-gesture-handler**,**react-native-reanimated**
 ## Example 1 - Basic Seek Bar
+
+
+https://github.com/Rishabh20051997/react-native-widgets/assets/50832570/a862c0ee-f11d-420c-9643-5643116dd503
+
 
 
 ```bash
