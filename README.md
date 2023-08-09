@@ -70,7 +70,9 @@ const chartArrayData = [{
 
 <ProgressBar
    progressValue={10}
-   containerStyle={styles.progressBarStyle}
+   containerStyle={{
+        borderRadius: 10,
+   }}
 />
 ```
 
@@ -88,7 +90,9 @@ useEffect(() => {
 
 <ProgressBar
    progressValue={progressBarValue}
-   containerStyle={styles.progressBarStyle}
+   containerStyle={{
+        borderRadius: 10
+   }}
 />
 ```
 
@@ -99,23 +103,42 @@ useEffect(() => {
 
 
 ```bash
-const [seekBarValue, updateSeekBarValue] = useState(0)
+const SeekBarExamples = () => {
 
-useEffect(() => {
-   setInterval(() => {
-      updateSeekBarValue(previousValue => previousValue + 1)
-   }, 1000)
-}, [])
+    const [seekBarValue, updateSeekBarValue] = useState(0)
 
-const updateProgress = useCallback((value: number) => {
-   updateSeekBarValue(value)
-}, [])
+    useEffect(() => {
+        setInterval(() => {
+            updateSeekBarValue(previousValue => previousValue + 1)
+        }, 1000)
+    }, [])
 
-return <View style={{ flex: 1 }}>
-    <View style={styles.card}>
-        <Text style={styles.headerText}>Seek Bar</Text>
-        <SeekBar currentValue={seekBarValue} totalValue={100} onValueChange={updateProgress}/>
-        <Text style={styles.counterText}>Value: {seekBarValue}</Text>
+    const updateProgress = useCallback((value: number) => {
+        updateSeekBarValue(value)
+    }, [])
+
+    return <View style={{ flex: 1 }}>
+        <View style={styles.card}>
+            <Text style={styles.headerText}>Seek Bar</Text>
+            <SeekBar currentValue={seekBarValue} totalValue={100} onValueChange={updateProgress}/>
+            <Text style={styles.counterText}>Value: {seekBarValue}</Text>
+        </View>
     </View>
-</View>
+}
+
+const styles = StyleSheet.create({
+    card: {
+        margin: 20,
+    },
+    progressBarStyle: {
+        borderRadius: 10,
+    },
+    headerText: {
+        color: 'black'
+    },
+    counterText: {
+        color: 'black',
+        textAlign:'center'
+    }
+})
 ```

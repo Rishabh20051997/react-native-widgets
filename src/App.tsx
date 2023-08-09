@@ -8,11 +8,8 @@
 import React from 'react';
 import {
   ScrollView,
-  StyleSheet,
-  Text,
-  View,
+  StyleSheet
 } from 'react-native';
-import PieChart from './widgets/pie-chart';
 import PieChartExamples from './examples/pie-chart-example';
 import ProgressBarExamples from './examples/progress-bar-example';
 import SeekBarExamples from './examples/seek-bar-example';
@@ -26,8 +23,8 @@ function App(): JSX.Element {
     <ScrollView contentContainerStyle={styles.root}>
       <GestureHandlerRootView>
         <PieChartExamples/>
-        {/* <ProgressBarExamples/> */}
-        {/* <SeekBarExamples /> */}
+        <ProgressBarExamples/>
+        <SeekBarExamples />
       </GestureHandlerRootView>
     </ScrollView>
   );
